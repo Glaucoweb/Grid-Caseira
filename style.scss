@@ -1,0 +1,24 @@
+// Grid Caseira
+// Autor: GLaucoweb
+// versão: v1.0.0
+
+// Declaração da variáveis 
+$gutter-columns: 10px; // espaço entre as colunas
+$grid-columns: 12; // quantidade de colunas
+$container-max: 940px; // tamanho máximo do grid
+
+%float-letf{float: left}; // placeholder estendido
+
+// Customização das colunas
+[class*="column-"] {
+  @extend %float-left
+  padding: 0 $gutter-columns;
+  margin-bottom: 20px;
+}
+
+//Calcula a largura de todas as colunas(12):
+@for $i from 1 through $grid-columns{ 
+  .column-#{$i} {
+    width: 100% / $grid-columns * $i;
+  }
+}

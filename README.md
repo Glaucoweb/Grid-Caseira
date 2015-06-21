@@ -1,13 +1,13 @@
 # Grid-Caseira com SASS
- Criar um style grid simples e com menos recursos é muito mas funcional para projetos pequenos.
+ Criar um style grid simples e com menos recursos é muito mais funcional para projetos pequenos.
  
 ### Por quê?
  Sei que muitos desenvolvedores preferem utilizar os frameworks [Bootstrap](http://getbootstrap.com/) e o [Foundation](http://foundation.zurb.com/). Mas existem vantagens e desvantagens.
- Um exemplo de desvantagens é utilizar um desses frameworks em projetos pequenos onde você pode customizar um Grid de acordo com o seu projeto.
+ Um exemplo de desvantagens é utilizar um desses frameworks em projetos pequenos onde você pode customizar um style grid de acordo com o seu projeto.
  Isso é muito divertido quando estamos falando do [SASS](http://sass-lang.com/).
  
  -----
-### Exemplo Simples
+### Exemplos simples
 É um style grid fluído com 100%. Se o seu layout tiver um grid de 940px, basicamente é inserir o valor na variável "**$container-max**"
 e inserir o valor na classe "**container**".
 ``` 
